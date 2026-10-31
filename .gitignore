@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,67 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Large ML model files
+# =========================
+*.weights
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.dat
+*.bz2
+
+# =========================
+# Large datasets
+# =========================
+Fake/Fake.csv
+*.csv
+
+# =========================
+# Generated results
+# =========================
+*_results.json
+*_report.json
+batch_results/
+
+# =========================
+# Generated images
+# =========================
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# OS
+# =========================
+Thumbs.db
+.DS_Store
+>>>>>>> b268f82ae4ef50965240fc8ae3f490040c3d61df
